@@ -61,3 +61,7 @@ button:first-of-type {
 button:last-of-type {
   background-color: red;
 }
+
+button:hover {
+  background-color: rgb(12, 158, 58);
+}
