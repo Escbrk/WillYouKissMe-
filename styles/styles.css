@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 
-.movable-container {
+.container {
   width: 25vw;
   height: 15vh;
   background-color: white;
@@ -42,7 +42,7 @@ h1 {
 }
 
 #agree {
-  font-size: 350px;
+  font-size: 303px;
 }
 
 button {
