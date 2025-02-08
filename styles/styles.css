@@ -1,0 +1,62 @@
+body {
+  background-image: url("../img/99px_ru_wallpaper_208201_belorozovie_oblaka_v_nebe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.visually-hidden {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.emoji {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.movable-container {
+  width: 25vw;
+  height: 15vh;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  text-align: center;
+  align-content: center;
+  padding: 15px;
+  background-color: #c11db7;
+}
+
+h1 {
+  color: #fff;
+}
+
+#agree {
+  font-size: 400px;
+}
+
+button {
+  width: 10vw;
+  height: 5vh;
+  font-size: 25px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+button:first-of-type {
+  background-color: green;
+}
+
+button:last-of-type {
+  background-color: red;
+}
