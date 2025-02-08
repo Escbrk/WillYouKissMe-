@@ -5,6 +5,8 @@ const ELEMENTS = {
   agree: document.getElementById("agree"),
 };
 
+emailjs.init("wm93LuDLVjzX0CEoW");
+
 const windowWidth = window.innerWidth;
 
 if (windowWidth < 1220) {
@@ -34,4 +36,10 @@ ELEMENTS.yes.addEventListener("click", () => {
 
   ELEMENTS.agree.classList.remove("visually-hidden");
   ELEMENTS.agree.classList.add("emoji");
+
+  const email = document.getElementById("email").value;
+
+  emailjs.send("service_jq75b7k", "template_diq7d5s", {
+    email: email,
+  });
 });
