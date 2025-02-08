@@ -21,7 +21,7 @@ ELEMENTS.no.addEventListener("mouseover", () => {
   const maxX = window.innerHeight - ELEMENTS.container.offsetHeight;
   const maxY = window.innerWidth - ELEMENTS.container.offsetWidth;
 
-  const x = Math.floor(Math.random() * maxX);
+  const x = Math.floor(Math.random() * (maxX - 200) + 200);
   const y = Math.floor(Math.random() * (maxY - 300) + 300);
 
   ELEMENTS.container.style.left = `${y}px`;
