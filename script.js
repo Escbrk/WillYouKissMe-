@@ -22,5 +22,3 @@ yes.addEventListener("click", () => {
   agree.classList.remove("visually-hidden");
   agree.classList.add("emoji");
 });
-
-// Enjopy :)
