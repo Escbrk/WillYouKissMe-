@@ -42,7 +42,7 @@ h1 {
 }
 
 #agree {
-  font-size: 400px;
+  font-size: 350px;
 }
 
 button {
@@ -51,6 +51,7 @@ button {
   font-size: 25px;
   border-radius: 20px;
   color: #fff;
+  border: none;
 }
 
 button:first-of-type {
