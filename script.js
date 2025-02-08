@@ -9,7 +9,7 @@ const windowWidth = window.innerWidth;
 
 if (windowWidth < 1220) {
   ELEMENTS.container.innerHTML =
-    "<h1>MOBILE DEVICES ARE NOT SUPPORTED PLEASE USE A LAPTOP</h1>";
+    "<h1>อุปกรณ์มือถือไม่ได้รับการสนับสนุนโปรดใช้แล็ปท็อป</h1>";
   ELEMENTS.container.style.backgroundColor = "black";
   ELEMENTS.container.style.textAlign = "left";
 
